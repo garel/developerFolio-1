@@ -7,23 +7,23 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Balázs Sárközi",
+  title: "Hi all, I'm Balázs",
+  subTitle: emoji("A freelance Software Engineer with over 5 years of experience with freelance professional software development."),
+  resumeLink: ""
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  // github: "https://github.com/saadpasta",
+  // linkedin: "https://www.linkedin.com/in/saadpasta/",
+  // gmail: "saadpasta70@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -31,7 +31,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Full stack software development, specialized in web based solutions, with a focus on ecommerce, erp systems, and SaaS applications.",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
@@ -63,12 +63,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "npm",
@@ -79,20 +79,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "php",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    {
+      skillName: "mnfrastructure-management",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ]
 };
@@ -104,15 +100,19 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      progressPercentage: "60%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Infrastructure management",
+      progressPercentage: "65%"
     }
   ]
 };
@@ -124,29 +124,59 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer",
+      company: "Freelancer",
+      date: "July 2012 – Present",
+      desc: "I started working on side projects as a freelancer in 2012. Since 2015 its my main occupation.",
+    },
+    {
+      role: "Backend engineer",
+      company: "Aton technology ltd.",
+      date: "February 2014 - December 2014",
+      desc: "Key responsibilites: maintaining and developing existing backend codebase on an SaaS system.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Maintaining existing backend code base",
+        "Developing new SaaS functions"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full Stack Web developer",
+      company: "Viale kft",
+      date: "September 2012 - November 2013",
+      desc: "Key responsibilites: ",
+      descBullets: [
+        "Developing new ecommerce features",
+        "Frontend design"
+      ]
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "System administrator",
+      company: "STV Services Gmbh",
+      date: "May 2011 - March 2012",
+      desc: "Key responsibilities: ",
+      descBullets: [
+          "Maintaining IT infrastructure",
+          "Providing desktop support"
+      ]
+    },
+    {
+      role: "ERP system developer",
+      company: "WinTrade 2000 Bt.",
+      date: "October 2009 - Jun 2010",
+      desc: "Key responsibilites: ",
+      descBullets: [
+          "Developing new features for the internal erp system"
+      ]
+    },
+    {
+      role: "Intern",
+      company: "Telenor Hungary zrt.",
+      date: "May 2007 - August 2009",
+      desc: "Key responsibilites",
+      descBullets: [
+          "Maintaining old services",
+          "Developing new functionalities for the Telenor Mobile Portal and other platforms",
+      ]
     },
   ]
 };
@@ -155,25 +185,25 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  githubConvertedToken: "",
+  githubUserName: "garel", // Change to your github username to view your profile in Contact Section.
+  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Project highligths",
+  subtitle: "Case studies",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      link: ""
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      link: ""
     }
   ]
 };
@@ -183,33 +213,32 @@ const bigProjects = {
 const achievementSection = {
 
   title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  subtitle: "",
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      title: "Sap certified ABAP developer",
+      subtitle: "",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://training.sap.com/certification/e_hanaaw_14-sap-certified-development-specialist---abap-for-sap-hana-20-g/" }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      title: "AWS solutions architect",
+      subtitle: "Course on Udemy",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      footerLink: [
+          { name: "Course", url: "https://www.udemy.com/course/aws-certified-solutions-architect-associate/" }
+        ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "DevOps Deployment Automation with Terraform",
+      subtitle: "Course on udemy",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+        { name: "Course", url: "https://www.udemy.com/course/devops-deployment-automation-terraform-aws-docker/" },
       ]
     }
   ]
@@ -264,9 +293,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Discuss a project or an idea? My Inbox is open for all.",
+  number: "+36705973833",
+  email_address: "hi@sarkozibalazs.dev"
 };
 
 //Twitter Section
