@@ -70,6 +70,7 @@
 .experience-roundedimg {
     position: absolute;
     object-fit: cover;
+    background: #fff;
     left: 0;
     right: 0;
     top: 7rem;

@@ -30,12 +30,14 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "Full stack software development, specialized in web based solutions, with a focus on ecommerce, erp systems, and SaaS applications.",
+  title: "What I do?",
+  subTitle: "",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop ecommerce portals"),
+    emoji("⚡ Creating application backend"),
+    emoji("⚡ Building resposive websites"),
+    emoji("⚡ Design and implement SaaS solutions"),
+    emoji("⚡ Plan and deploy cloud based infrastructure")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -126,12 +128,14 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Freelancer",
+      companylogo: require("./assets/images/logo.svg"),
       date: "July 2012 – Present",
       desc: "I started working on side projects as a freelancer in 2012. Since 2015 its my main occupation.",
     },
     {
       role: "Backend engineer",
       company: "Aton technology ltd.",
+      companylogo: require("./assets/images/at.svg"),
       date: "February 2014 - December 2014",
       desc: "Key responsibilites: maintaining and developing existing backend codebase on an SaaS system.",
       descBullets: [
@@ -142,6 +146,7 @@ const workExperiences = {
     {
       role: "Full Stack Web developer",
       company: "Viale kft",
+      companylogo: require("./assets/images/viale.svg"),
       date: "September 2012 - November 2013",
       desc: "Key responsibilites: ",
       descBullets: [
@@ -152,6 +157,7 @@ const workExperiences = {
     {
       role: "System administrator",
       company: "STV Services Gmbh",
+      companylogo: require("./assets/images/admin.svg"),
       date: "May 2011 - March 2012",
       desc: "Key responsibilities: ",
       descBullets: [
@@ -162,6 +168,7 @@ const workExperiences = {
     {
       role: "ERP system developer",
       company: "WinTrade 2000 Bt.",
+      companylogo: require("./assets/images/wintrade.svg"),
       date: "October 2009 - Jun 2010",
       desc: "Key responsibilites: ",
       descBullets: [
@@ -171,6 +178,7 @@ const workExperiences = {
     {
       role: "Intern",
       company: "Telenor Hungary zrt.",
+      companylogo: require("./assets/images/telenor.svg"),
       date: "May 2007 - August 2009",
       desc: "Key responsibilites",
       descBullets: [
@@ -185,9 +193,9 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "",
-  githubUserName: "garel", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
+  // githubConvertedToken: "",
+  // githubUserName: "garel", // Change to your github username to view your profile in Contact Section.
+  // showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -198,11 +206,11 @@ const bigProjects = {
   subtitle: "Case studies",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/abacus.svg"),
       link: ""
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/lisa.svg"),
       link: ""
     }
   ]
@@ -219,7 +227,7 @@ const achievementSection = {
     {
       title: "Sap certified ABAP developer",
       subtitle: "",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/sap-vector-logo.svg"),
       footerLink: [
         { name: "Certification", url: "https://training.sap.com/certification/e_hanaaw_14-sap-certified-development-specialist---abap-for-sap-hana-20-g/" }
       ]
@@ -227,7 +235,7 @@ const achievementSection = {
     {
       title: "AWS solutions architect",
       subtitle: "Course on Udemy",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/aws.svg"),
       footerLink: [
           { name: "Course", url: "https://www.udemy.com/course/aws-certified-solutions-architect-associate/" }
         ]
@@ -236,7 +244,7 @@ const achievementSection = {
     {
       title: "DevOps Deployment Automation with Terraform",
       subtitle: "Course on udemy",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/terraform.svg"),
       footerLink: [
         { name: "Course", url: "https://www.udemy.com/course/devops-deployment-automation-terraform-aws-docker/" },
       ]
@@ -295,7 +303,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or an idea? My Inbox is open for all.",
   number: "+36705973833",
-  email_address: "hi@sarkozibalazs.dev"
+  email_address: "hello@sarkozibalazs.dev"
 };
 
 //Twitter Section
