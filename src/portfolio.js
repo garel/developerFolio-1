@@ -207,11 +207,11 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/abacus.svg"),
-      link: ""
+      link: "https://projects.sarkozibalazs.dev/abacus-procurment-support"
     },
     {
       image: require("./assets/images/lisa.svg"),
-      link: ""
+      link: "https://projects.sarkozibalazs.dev/lisa-erp"
     }
   ]
 };
