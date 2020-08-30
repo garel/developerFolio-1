@@ -34,8 +34,8 @@ const skillsSection = {
   subTitle: "",
   skills: [
     emoji("⚡ Develop ecommerce portals"),
-    emoji("⚡ Creating application backend"),
-    emoji("⚡ Building resposive websites"),
+    emoji("⚡ Create application backend"),
+    emoji("⚡ Build resposive websites, progressive web apps and mobile applications"),
     emoji("⚡ Design and implement SaaS solutions"),
     emoji("⚡ Plan and deploy cloud based infrastructure")
   ],
