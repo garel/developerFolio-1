@@ -10,7 +10,7 @@ const greeting = {
   username: "Balázs Sárközi",
   title: "Hi all, I'm Balázs",
   subTitle: emoji("A freelance Software Engineer with over 5 years of experience with freelance professional software development."),
-  resumeLink: ""
+  resumeLink: "https://sarkozibalazs.dev/SarkoziBalazs.pdf"
 };
 
 // Your Social Media Link
