@@ -212,6 +212,10 @@ const bigProjects = {
     {
       image: require("./assets/images/lisa.svg"),
       link: "https://projects.sarkozibalazs.dev/lisa-erp"
+    },
+    {
+      image: require("./assets/images/simple.svg"),
+      link: "https://projects.sarkozibalazs.dev/simple-shop"
     }
   ]
 };
